@@ -92,7 +92,7 @@ input_interface = []
 
 with gr.Blocks(css=".gradio-container {background-color:silver}") as app:
     title = gr.Label('VODAFONE CUSTOMER CHURN PREDICTION')
-    img = gr.Image("VODA.png").style(height= 210 , width= 1250)
+    img = gr.Image("assets\\VODA.png").style(height= 210 , width= 1250)
 
  
     with gr.Row():
