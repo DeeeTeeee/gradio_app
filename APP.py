@@ -7,11 +7,11 @@ import joblib
 from PIL import Image
 
 #using joblib to load the model:
-num_imputer = joblib.load('num_imputer.joblib') # loading the imputer
-cat_imputer = joblib.load('cat_imputer.joblib') # loading the imputer
-encoder = joblib.load('encoder.joblib') # loading the encoder
-scaler = joblib.load('scaler.joblib') # loading the scaler
-model = joblib.load('ml.joblib') # loading the model
+num_imputer = joblib.load('assets\\num_imputer.joblib') # loading the imputer 
+cat_imputer = joblib.load('assets\\cat_imputer.joblib') # loading the imputer
+encoder = joblib.load('assets\\encoder.joblib') # loading the encoder
+scaler = joblib.load('assets\\scaler.joblib') # loading the scaler
+model = joblib.load('assets\\ml.joblib') # loading the model
 
 
 # Create a function that applies the ML pipeline and makes predictions
